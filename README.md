@@ -61,11 +61,14 @@ Locate the API endpoints newly created.
 Copy the API endpoints and test the APIs using Browser or Postman
 
 API 1: /getCryptoPrice
+
 User Parameters: email address and crypto name
 
 ```bash
-  /getCryptoPrice?email=&cryptoName=
+  /getCryptoPrice?email=<email>&cryptoName=<cryptoName>
 ````
+
+Please make sure the names of the crypto currencies are selected from Coingecko documentation and format.
 
 ![AP1 Results](images/API1.jpg)
 
@@ -78,5 +81,7 @@ Description: This API will give a list of all the crypto price searched by API1.
 ````
 
 ![AP1 Results](images/API2.jpg)
+ 
 
+# End of Document
 
