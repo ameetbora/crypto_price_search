@@ -73,6 +73,7 @@ Please make sure the names of the crypto currencies are selected from Coingecko 
 ![AP1 Results](images/API1.jpg)
 
 API 2: /getSearchHistory
+
 Description: This API will give a list of all the crypto price searched by API1.
 
 
