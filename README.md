@@ -50,5 +50,33 @@ sam deploy --guided --capabilities CAPABILITY_NAMED_IAM
 
 Crypto Search Architecture
 
-![Architecture Diagram](images/API1.jpg)
+![Architecture Diagram](images/architecture.jpg)
+
+How to run the API
+
+Go to AWS Console and select the API Gateway 
+
+Locate the API endpoints newly created.
+
+Copy the API endpoints and test the APIs using Browser or Postman
+
+API 1: /getCryptoPrice
+User Parameters: email address and crypto name
+
+```bash
+  /getCryptoPrice?email=&cryptoName=
+````
+
+![AP1 Results](images/API1.jpg)
+
+API 2: /getSearchHistory
+Description: This API will give a list of all the crypto price searched by API1.
+
+
+```bash
+  /getSearchHistory
+````
+
+![AP1 Results](images/API2.jpg)
+
 
