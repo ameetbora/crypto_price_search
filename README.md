@@ -50,5 +50,5 @@ sam deploy --guided --capabilities CAPABILITY_NAMED_IAM
 
 Crypto Search Architecture
 
-![Architecture Diagram](images\API1.jpg)
+![Architecture Diagram](images/API1.jpg)
 
