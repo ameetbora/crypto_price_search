@@ -35,9 +35,11 @@ touch .env
 
 Add the following values in the .env file
 
+```bash
 COINGECKO_API_KEY=''
 DEFAULT_EMAIL=''
 DEFAULT_COIN=''
+```
 
 To build and deploy your application for the first time, run the following in your shell:
 
